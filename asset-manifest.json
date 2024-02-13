@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/react-to-wc/static/js/main.fc12eadc.js",
+    "main.css": "/react-to-wc/static/css/main.a76011b5.css",
+    "main.js": "/react-to-wc/static/js/main.d0c416b4.js",
     "index.html": "/react-to-wc/index.html",
-    "main.fc12eadc.js.map": "/react-to-wc/static/js/main.fc12eadc.js.map"
+    "main.a76011b5.css.map": "/react-to-wc/static/css/main.a76011b5.css.map",
+    "main.d0c416b4.js.map": "/react-to-wc/static/js/main.d0c416b4.js.map"
   },
   "entrypoints": [
-    "static/js/main.fc12eadc.js"
+    "static/css/main.a76011b5.css",
+    "static/js/main.d0c416b4.js"
   ]
 }
