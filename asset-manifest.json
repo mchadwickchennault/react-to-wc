@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/react-to-wc/static/js/main.394d6f1f.js",
+    "main.js": "/react-to-wc/static/js/main.fc12eadc.js",
     "index.html": "/react-to-wc/index.html",
-    "main.394d6f1f.js.map": "/react-to-wc/static/js/main.394d6f1f.js.map"
+    "main.fc12eadc.js.map": "/react-to-wc/static/js/main.fc12eadc.js.map"
   },
   "entrypoints": [
-    "static/js/main.394d6f1f.js"
+    "static/js/main.fc12eadc.js"
   ]
 }
