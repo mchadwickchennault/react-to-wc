@@ -1,15 +1,17 @@
 import { Button, type ButtonProps } from '@carbon/react';
 
 import React from 'react';
+import './tracer-button.scss'
 
-type TracerButtonProps = {
- } extends ButtonProps<'button'> ? ButtonProps<'button'> : never;
-
-const style: React.CSSProperties = {
-    borderRadius: '20px'
+interface BaseButtonProps {
+    text: string;
 };
 
+
+type TracerButtonProps = BaseButtonProps extends ButtonProps<'button'> ? ButtonProps<'button'> : BaseButtonProps;
+
+
+
 export const TracerButton = (props: TracerButtonProps) => {
-    const newProps = { ...props, style: { ...props.style, ...style}}
-    return <Button {...newProps} />;
+    return <Button {...props} buttonClassName='tracer-button'>{props.text}</Button>;
 };

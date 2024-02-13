@@ -8,7 +8,7 @@ import { TracerButton } from './components/tracer-button';
 
 
 
-const wcTracerButton = r2wc(TracerButton);
+const wcTracerButton = r2wc(TracerButton, { props: {text: "string"}});
 
 customElements.define("tracer-button", wcTracerButton);
 
