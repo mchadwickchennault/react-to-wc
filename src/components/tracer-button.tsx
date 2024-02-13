@@ -1,7 +1,15 @@
-import '@carbon/web-components/es/components/button/index.js';
+import { Button, type ButtonProps } from '@carbon/react';
 
-export function TracerButton() {
-    return (
-        <cds-button>Tracer Button</cds-button>
-    )
-}
+import React from 'react';
+
+type TracerButtonProps = {
+ } extends ButtonProps<'button'> ? ButtonProps<'button'> : never;
+
+const style: React.CSSProperties = {
+    borderRadius: '20px'
+};
+
+export const TracerButton = (props: TracerButtonProps) => {
+    const newProps = { ...props, style: { ...props.style, ...style}}
+    return <Button {...newProps} />;
+};
